@@ -17,7 +17,7 @@ FAHRENHEIT_FREEZING = 32
 
 temp_celsius = int(input('Temperature (C): '))
 
-"Convert to fahrenheit"
+"""Convert to fahrenheit"""
 temp_fahrenheit = (9/5)*temp_celsius+FAHRENHEIT_FREEZING
 print('Temperature (F): ',temp_fahrenheit)
 

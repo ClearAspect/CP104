@@ -33,7 +33,7 @@ def calculate_monthly_payment(p: float, n: int, i: float) -> float:
     return monthly_payment
 
 # Get Principal
-principal = int(input("Mortgage principal ($): "))
+principal = float(input("Mortgage principal ($): "))
 
 # Get the number of years and convert it to number of payments
 number_of_years = int(input("Number of years: "))
