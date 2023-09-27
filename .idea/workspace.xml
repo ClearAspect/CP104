@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1d9bc34-593e-44a9-a75a-fad7f3202c2b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Maso2187_a01/src/t05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maso2187_l03/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maso2187_l03/.pydevproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maso2187_l03/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Computer Science/ProjectOfTheWeek10/src/projectoftheweek10/ProjectOfTheWeek10.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maso2187_a01/src/t04.py" beforeDir="false" afterPath="$PROJECT_DIR$/Maso2187_a01/src/t04.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maso2187_a01/src/testing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Maso2187_a01/src/testing.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,7 @@
       <workItem from="1695151299649" duration="91000" />
       <workItem from="1695151432312" duration="1810000" />
       <workItem from="1695222077781" duration="4567000" />
-      <workItem from="1695742211558" duration="2111000" />
+      <workItem from="1695742211558" duration="3399000" />
     </task>
     <servers />
   </component>
