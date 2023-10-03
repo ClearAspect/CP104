@@ -14,14 +14,16 @@ __updated__ = "2023-09-27"
 
 # Constants
 
-print("""
-'I'm a Little Astronaut' by Jean Warren
+integer = 654321
+decimal = 654.32
+phrase = "Hello World"
 
-I'm a little astronaut
-    Flying to the moon.
-        My rocket is ready,
-        We blast off soon.
-I climb aboard
-    And close the hatch.
-        5-4-3-2-1, off we blast!
-""")
+print(f"{integer:d}")
+print(f"{integer:f}")
+# print(f"{integer:s}")
+# print(f"{decimal:d}")
+print(f"{decimal:f}")
+# print(f"{decimal:s}")
+# print(f"{phrase:d}")
+# print(f"{phrase:f}")
+print(f"{phrase:s}")

@@ -14,14 +14,8 @@ __updated__ = "2023-09-27"
 
 # Constants
 
-print("""
-'I'm a Little Astronaut' by Jean Warren
+min = int(input("Enter minimum: "))
+max = int(input("Enter maximum: "))
+diff = max-min
 
-I'm a little astronaut
-    Flying to the moon.
-        My rocket is ready,
-        We blast off soon.
-I climb aboard
-    And close the hatch.
-        5-4-3-2-1, off we blast!
-""")
+print(f"The difference between {max:d} and {min:d} is {diff:d}")

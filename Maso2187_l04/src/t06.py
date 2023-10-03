@@ -5,23 +5,15 @@
 Author:  Roan Somers Mason
 ID:      169072187
 Email:   maso2187@mylaurier.ca
-__updated__ = "2023-09-27"
+__updated__ = "2023-10-03"
 -------------------------------------------------------
 """
 
 
 # Imports
+from functions import pythag
 
 # Constants
 
-print("""
-'I'm a Little Astronaut' by Jean Warren
+print(pythag(3.0, 4.0))
 
-I'm a little astronaut
-    Flying to the moon.
-        My rocket is ready,
-        We blast off soon.
-I climb aboard
-    And close the hatch.
-        5-4-3-2-1, off we blast!
-""")

@@ -5,23 +5,14 @@
 Author:  Roan Somers Mason
 ID:      169072187
 Email:   maso2187@mylaurier.ca
-__updated__ = "2023-09-27"
+__updated__ = "2023-10-03"
 -------------------------------------------------------
 """
 
 
 # Imports
+from functions import population
 
 # Constants
 
-print("""
-'I'm a Little Astronaut' by Jean Warren
-
-I'm a little astronaut
-    Flying to the moon.
-        My rocket is ready,
-        We blast off soon.
-I climb aboard
-    And close the hatch.
-        5-4-3-2-1, off we blast!
-""")
+print(population(1000000, 80, 95, 212, 5))
