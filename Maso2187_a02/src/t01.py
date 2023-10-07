@@ -11,8 +11,17 @@ __updated__ = "2023-10-03"
 
 
 # Imports
-from functions import f_to_c
+
 # Constants
+ANNUAL_TAX = 0.185
 
+total_sales = float(input("Enter the total sales: $"))
+tax = total_sales * ANNUAL_TAX
 
-print(f_to_c(32))
+print(f"""
+Projected Tax Report
+--------------------------
+Total Sales:    $ {total_sales:,.2f}
+Annual Tax:     % {ANNUAL_TAX*100:,.2f}
+--------------------------
+Tax:            $  {tax:,.2f}""")

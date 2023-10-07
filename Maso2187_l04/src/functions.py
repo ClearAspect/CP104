@@ -14,7 +14,9 @@ import math
 # Imports
 
 # Constants
-seconds_per_year = 365*24*60*60
+SECONDS_PER_YEAR = 365 * 24 * 60 * 60
+FAHRENHEIT_FREEZING = 32
+
 def diameter(radius):
     """
     -------------------------------------------------------
@@ -93,9 +95,25 @@ def population(size, births, deaths, immigrants, years):
        new_size - new population size (int)
     -------------------------------------------------------
     """
-    num_births = (seconds_per_year / births)*years
-    num_deaths = (seconds_per_year / deaths)*years
-    num_immigrants = (seconds_per_year / immigrants)*years
+    num_births = (SECONDS_PER_YEAR / births) * years
+    num_deaths = (SECONDS_PER_YEAR / deaths) * years
+    num_immigrants = (SECONDS_PER_YEAR / immigrants) * years
     new_size = size - num_deaths + num_births + num_immigrants
 
     return round(new_size)
+
+
+def f_to_c(fahrenheit):
+    """
+    -------------------------------------------------------
+    Converts temperatures in fahrenheit to celsius.
+    Use: celsius = f_to_c(fahrenheit)
+    -------------------------------------------------------
+    Parameters:
+        fahrenheit - temperature in fahrenheit (int >= -459)
+    Returns:
+        celsius - equivalent to celsius (float)
+    -------------------------------------------------------
+    """
+    celsius = (fahrenheit - FAHRENHEIT_FREEZING) * (5/9)
+    return celsius
