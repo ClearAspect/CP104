@@ -39,7 +39,18 @@ Flyers left over: 8
 -------------------------------------------------------
 t05
 -------------------------------------------------------
+Foundation length (m): 4
+Foundation width (m): 2
+Foundation height (m): 0.6
+Wall height (m): 2.5
+Cost of concrete ($/m^3): 125
+Cost of bricks ($/m^2): 94
 
+Concrete needed for foundation (m^3): 4.80
+Cost of concrete: $600.00
+Bricks needed for walls (m^2): 30.00
+Cost of bricks: $2820.00
+Total cost: $3420.00
 -------------------------------------------------------
 t06
 -------------------------------------------------------
