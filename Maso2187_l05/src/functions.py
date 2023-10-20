@@ -15,6 +15,12 @@ __updated__ = "2023-10-17"
 # Constants
 ACC_GRAVITY = 9.8
 
+# Age constants
+INFANT_AGE = 3
+KID_AGE = 10
+ADULT_AGE = 18
+SENIOR_AGE = 65
+
 def get_weight(mass):
     """
     -------------------------------------------------------
@@ -132,3 +138,41 @@ def quadrant(x, y):
         location = None
 
     return location
+
+def ticket():
+    """
+    -------------------------------------------------------
+    School play ticket price calculation.
+    Asks user for their age, and if necessary, if they are
+    a student at the school. Prices:
+        Infant (age < 3): $0
+        Senior (age >= 65): $4.00
+        Student (10 <= age < 18): $3.00
+            Student of this school: $1.00
+        Adult (18 <= age < 65): $5.00
+        Kid (3 <= age < 10): $2.00
+    Use: price = ticket()
+    -------------------------------------------------------
+    Returns:
+        price - the price of one ticket (float)
+    -------------------------------------------------------
+    """
+    age = int(input("How old are you?: "))
+    if age < INFANT_AGE:
+        price = 0
+    elif age >= SENIOR_AGE:
+        price = 4.00
+    elif KID_AGE <= age < ADULT_AGE:
+        student = input("Student (Y/N): ")
+        if student == "Y":
+            price = 1.00
+        else:
+            price = 3.00
+    elif ADULT_AGE <= age < SENIOR_AGE:
+        price = 5.00
+    elif INFANT_AGE <= age < KID_AGE:
+        price = 2.00
+    else:
+        price = None
+
+    return price

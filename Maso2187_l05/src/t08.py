@@ -12,4 +12,8 @@ __updated__ = "2023-10-20"
 
 # Imports
 
+from functions import roman_numeral
+
 # Constants
+
+print(roman_numeral(4))
