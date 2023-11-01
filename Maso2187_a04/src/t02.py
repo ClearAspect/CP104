@@ -1,0 +1,19 @@
+"""
+-------------------------------------------------------
+[program description]
+-------------------------------------------------------
+Author:  Roan Somers Mason
+ID:      169072187
+Email:   maso2187@mylaurier.ca
+__updated__ = "2023-10-28"
+-------------------------------------------------------
+"""
+
+
+# Imports
+from functions import pollution_ranking
+
+# Constants
+
+
+print(pollution_ranking(256))
