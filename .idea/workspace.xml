@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1d9bc34-593e-44a9-a75a-fad7f3202c2b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Maso2187_l09/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maso2187_l09/.pydevproject" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maso2187_l09/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maso2187_l09/src/functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maso2187_l09/src/t01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maso2187_l09/src/t04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maso2187_l09/src/t07.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maso2187_l09/src/t10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maso2187_l09/src/t12.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Maso2187_l09/src/testing.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e1d9bc34-593e-44a9-a75a-fad7f3202c2b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,6 +96,7 @@
       <workItem from="1699641252787" duration="2860000" />
       <workItem from="1699744581152" duration="1791000" />
       <workItem from="1700275325535" duration="801000" />
+      <workItem from="1700280725451" duration="643000" />
     </task>
     <servers />
   </component>
