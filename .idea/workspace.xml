@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="e1d9bc34-593e-44a9-a75a-fad7f3202c2b" name="Changes" comment="" />
+=======
+    <list default="true" id="e1d9bc34-593e-44a9-a75a-fad7f3202c2b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Maso2187_a07/src/functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maso2187_a07/src/t01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maso2187_a07/src/t02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maso2187_a07/src/t03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maso2187_a07/src/t04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maso2187_a07/src/t05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maso2187_a07/src/testing.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CP104.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,9 +28,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="CP104 Testing" />
         <option value="CP104 testing.txt" />
         <option value="CP104 Python Script" />
+        <option value="CP104 Testing" />
       </list>
     </option>
   </component>
@@ -49,7 +63,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -96,7 +110,12 @@
       <workItem from="1699641252787" duration="2860000" />
       <workItem from="1699744581152" duration="1791000" />
       <workItem from="1700275325535" duration="801000" />
+<<<<<<< Updated upstream
       <workItem from="1700280725451" duration="643000" />
+=======
+      <workItem from="1700348781976" duration="107000" />
+      <workItem from="1700362686058" duration="1325000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
@@ -110,20 +129,20 @@
     </ignored-roots>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CP104$t07.coverage" NAME="t07 Coverage Results" MODIFIED="1700275893329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maso2187_l09/src" />
-    <SUITE FILE_PATH="coverage/CP104$t04.coverage" NAME="t04 Coverage Results" MODIFIED="1700275784037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maso2187_l09/src" />
-    <SUITE FILE_PATH="coverage/CP104$t01.coverage" NAME="t01 Coverage Results" MODIFIED="1700275549687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maso2187_l09/src" />
     <SUITE FILE_PATH="coverage/CP104$t10.coverage" NAME="t10 Coverage Results" MODIFIED="1700276007102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maso2187_l09/src" />
-    <SUITE FILE_PATH="coverage/CP104$t14.coverage" NAME="t14 Coverage Results" MODIFIED="1699668775797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maso2187_l08/src" />
-    <SUITE FILE_PATH="coverage/CP104$t05.coverage" NAME="t05 Coverage Results" MODIFIED="1699746350650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maso2187_a06/src" />
-    <SUITE FILE_PATH="coverage/CP104$t11.coverage" NAME="t11 Coverage Results" MODIFIED="1699130273830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maso2187_l03/src" />
+    <SUITE FILE_PATH="coverage/CP104$t13.coverage" NAME="t13 Coverage Results" MODIFIED="1696358439906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maso2187_l04/src" />
+    <SUITE FILE_PATH="coverage/CP104$t06.coverage" NAME="t06 Coverage Results" MODIFIED="1698452043603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maso2187_l06/src" />
+    <SUITE FILE_PATH="coverage/CP104$t04.coverage" NAME="t04 Coverage Results" MODIFIED="1700363869117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maso2187_a07/src" />
     <SUITE FILE_PATH="coverage/CP104$t12.coverage" NAME="t12 Coverage Results" MODIFIED="1700276115109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maso2187_l09/src" />
+    <SUITE FILE_PATH="coverage/CP104$t07.coverage" NAME="t07 Coverage Results" MODIFIED="1700275893329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maso2187_l09/src" />
+    <SUITE FILE_PATH="coverage/CP104$functions.coverage" NAME="functions Coverage Results" MODIFIED="1700363867200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maso2187_a07/src" />
+    <SUITE FILE_PATH="coverage/CP104$t03.coverage" NAME="t03 Coverage Results" MODIFIED="1700362749089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maso2187_a07/src" />
+    <SUITE FILE_PATH="coverage/CP104$t05.coverage" NAME="t05 Coverage Results" MODIFIED="1700364017907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maso2187_a07/src" />
+    <SUITE FILE_PATH="coverage/CP104$t08.coverage" NAME="t08 Coverage Results" MODIFIED="1699668324104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maso2187_l08/src" />
     <SUITE FILE_PATH="coverage/CP104$t15.coverage" NAME="t15 Coverage Results" MODIFIED="1698456545259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maso2187_l06/src" />
     <SUITE FILE_PATH="coverage/CP104$t02.coverage" NAME="t02 Coverage Results" MODIFIED="1699745623102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maso2187_a06/src" />
-    <SUITE FILE_PATH="coverage/CP104$t06.coverage" NAME="t06 Coverage Results" MODIFIED="1698452043603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maso2187_l06/src" />
-    <SUITE FILE_PATH="coverage/CP104$t08.coverage" NAME="t08 Coverage Results" MODIFIED="1699668324104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maso2187_l08/src" />
-    <SUITE FILE_PATH="coverage/CP104$t03.coverage" NAME="t03 Coverage Results" MODIFIED="1699745970018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maso2187_a06/src" />
-    <SUITE FILE_PATH="coverage/CP104$t13.coverage" NAME="t13 Coverage Results" MODIFIED="1696358439906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maso2187_l04/src" />
-    <SUITE FILE_PATH="coverage/CP104$functions.coverage" NAME="functions Coverage Results" MODIFIED="1699746183010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maso2187_a06/src" />
+    <SUITE FILE_PATH="coverage/CP104$t14.coverage" NAME="t14 Coverage Results" MODIFIED="1699668775797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maso2187_l08/src" />
+    <SUITE FILE_PATH="coverage/CP104$t11.coverage" NAME="t11 Coverage Results" MODIFIED="1699130273830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maso2187_l03/src" />
+    <SUITE FILE_PATH="coverage/CP104$t01.coverage" NAME="t01 Coverage Results" MODIFIED="1700275549687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Maso2187_l09/src" />
   </component>
 </project>
