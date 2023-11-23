@@ -42,5 +42,10 @@ def customer_record(fh, n):
             an empty list otherwise (list)
     -------------------------------------------------------
     """
-
-    customer_record = open("customers.txt", "r", encoding="utf-8")
+    result = []
+    count = 0
+    for line in fh:
+        if count == n:
+            result = line.strip().split(",")
+        count += 1
+    return result

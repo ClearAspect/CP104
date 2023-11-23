@@ -9,6 +9,9 @@ __updated__ = "2023-11-20"
 -------------------------------------------------------
 """
 # Imports
-
+from functions import customer_record
 
 # Constants
+
+fh = open("src/customers.txt", "r", encoding="utf-8")
+print(customer_record(fh, 3))
