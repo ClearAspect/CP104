@@ -9,18 +9,9 @@ __updated__ = "2023-11-20"
 -------------------------------------------------------
 """
 # Imports
+from functions import append_max_num
 
 # Constants
 
-def func():
-    """
-    -------------------------------------------------------
-    description
-    Use: 
-    -------------------------------------------------------
-    Parameters:
-        name - description (type)
-    Returns:
-        name - description (type)
-    ------------------------------------------------------
-    """
+fh = open("numbers.txt", "r+", encoding="utf-8")
+print(append_max_num(fh))

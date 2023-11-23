@@ -13,20 +13,6 @@ __updated__ = "2023-11-20"
 # Constants
 
 
-def func():
-    """
-    -------------------------------------------------------
-    description
-    Use:
-    -------------------------------------------------------
-    Parameters:
-        name - description (type)
-    Returns:
-        name - description (type)
-    ------------------------------------------------------
-    """
-
-
 def customer_record(fh, n):
     """
     -------------------------------------------------------
@@ -49,3 +35,51 @@ def customer_record(fh, n):
             result = line.strip().split(",")
         count += 1
     return result
+
+
+def customer_best(fh):
+    """
+    -------------------------------------------------------
+    Find the customer with the largest balance.
+    Assumes file is not empty.
+    Use: result = customer_best(fh)
+    -------------------------------------------------------
+    Parameters:
+        fh - file to search (file handle - already open for reading)
+    Returns:
+        result - the record with the greatest balance (list)
+    -------------------------------------------------------
+    """
+    results = []
+    highest_balance = float("-inf")
+    for line in fh:
+        line = line.strip().split(",")
+        balance = float(line[3])
+        if balance > highest_balance:
+            highest_balance = balance
+            results = line
+    return results
+
+
+def append_max_num(fh):
+    """
+    -------------------------------------------------------
+    Appends a number to the end of fh. The number appended
+    is the maximum of all the numbers currently in the file.
+    Assumes file is not empty.
+    Use: num = append_max_num(fh)
+    -------------------------------------------------------
+    Parameters:
+        fh - file to search (file handle - already open for reading/writing)
+    Returns:
+        num - the number appended to the file (int)
+    ------------------------------------------------------
+    """
+    num = 0
+
+    for line in fh:
+        line = int(line.strip())
+        if line > num:
+            num = line
+    fh.write("\n" + str(num))
+    return num

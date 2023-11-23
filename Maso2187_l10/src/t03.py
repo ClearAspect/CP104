@@ -9,18 +9,9 @@ __updated__ = "2023-11-20"
 -------------------------------------------------------
 """
 # Imports
+from functions import customer_best
 
 # Constants
 
-def func():
-    """
-    -------------------------------------------------------
-    description
-    Use: 
-    -------------------------------------------------------
-    Parameters:
-        name - description (type)
-    Returns:
-        name - description (type)
-    ------------------------------------------------------
-    """
+fh = open("customers.txt", "r", encoding="utf-8")
+print(customer_best(fh))

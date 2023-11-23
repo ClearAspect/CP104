@@ -13,5 +13,5 @@ from functions import customer_record
 
 # Constants
 
-fh = open("src/customers.txt", "r", encoding="utf-8")
+fh = open("customers.txt", "r", encoding="utf-8")
 print(customer_record(fh, 3))
