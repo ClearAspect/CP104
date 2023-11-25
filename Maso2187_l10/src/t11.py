@@ -9,18 +9,9 @@ __updated__ = "2023-11-20"
 -------------------------------------------------------
 """
 # Imports
+from functions import find_longest
 
 # Constants
 
-def func():
-    """
-    -------------------------------------------------------
-    description
-    Use: 
-    -------------------------------------------------------
-    Parameters:
-        name - description (type)
-    Returns:
-        name - description (type)
-    ------------------------------------------------------
-    """
+fh = open("words.txt", "r+", encoding="utf-8")
+print(find_longest(fh))

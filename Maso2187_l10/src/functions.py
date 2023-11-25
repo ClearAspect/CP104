@@ -83,3 +83,41 @@ def append_max_num(fh):
             num = line
     fh.write("\n" + str(num))
     return num
+
+def find_longest(fh):
+    """
+    -------------------------------------------------------
+    Finds the last word with longest length in fh.
+    Assumes file is not empty.
+    Use: word = find_longest(fh)
+    -------------------------------------------------------
+    Parameters:
+        fh - file to search (file handle - already open for reading)
+    Returns:
+        word - the last word with the longest length in fh (str)
+    ------------------------------------------------------
+    """
+    longest = ""
+    for line in fh:
+        line = line.strip()
+        if len(line) >= len(longest):
+            longest = line
+    return longest
+
+def file_copy(fh_1, fh_2):
+    """
+    -------------------------------------------------------
+    Copies the contents of fh_1 to fh_2.
+    Any contents of fh_2 are overwritten.
+    Use: file_copy(fh_1, fh_2)
+    -------------------------------------------------------
+    Parameters:
+        fh_1 - source file (file handle - already open for reading)
+        fh_2 - target file (file handle - already open for writing)
+    Returns:
+        None
+    ------------------------------------------------------
+    """
+    for line in fh_1:
+        fh_2.write(line)
+    return
