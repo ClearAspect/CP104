@@ -9,6 +9,7 @@ __updated__ = "2023-11-30"
 -------------------------------------------------------
 """
 # Imports
+import random
 
 # Constants
 
@@ -31,3 +32,47 @@ def generate_matrix_num(rows, cols, low, high, value_type):
         matrix - a 2D list of random numbers (2D list of float/int)
     -------------------------------------------------------
     """
+    matrix = []
+    for i in range(rows):
+        row = []
+        for j in range(cols):
+            if value_type == "float":
+                row.append(random.uniform(low, high))
+            elif value_type == "int":
+                row.append(random.randint(low, high))
+        matrix.append(row)
+    return matrix
+
+
+def print_matrix_num(matrix, value_type):
+    """
+    -------------------------------------------------------
+    Prints the contents of a 2D list in a formatted table.
+    Prints float values with 2 decimal points and prints row and
+    column headings.
+    Use: print_matrix_num(matrix, 'float')
+    Use: print_matrix_num(matrix, 'int')
+    -------------------------------------------------------
+    Parameters:
+        matrix - a 2D list of values (2D list)
+        value_type - type of values in the list, 'float' or 'int' (str)
+    Returns:
+        None.
+    -------------------------------------------------------
+    """
+    rows = len(matrix)
+    cols = len(matrix[0])
+
+    print(f"{' ':2}", end="")
+    for i in range(cols):
+        print(f"{i:>7d}", end="")
+
+    for i in range(rows):
+        print("\n", end=f"{i:>2d}")
+        for j in range(cols):
+            if value_type == "float":
+                print(f"{matrix[i][j]:>7.2f}", end="")
+            elif value_type == "int":
+                print(f"{matrix[i][j]:>7d}", end="")
+
+    return

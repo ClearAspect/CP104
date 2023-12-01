@@ -9,19 +9,8 @@ __updated__ = "2023-11-30"
 -------------------------------------------------------
 """
 # Imports
+from functions import generate_matrix_num
 
 # Constants
 
-
-def func():
-    """
-    -------------------------------------------------------
-    description
-    Use:
-    -------------------------------------------------------
-    Parameters:
-        name - description (type)
-    Returns:
-        name - description (type)
-    ------------------------------------------------------
-    """
+print(generate_matrix_num(3, 4, -10, 10, "float"))
