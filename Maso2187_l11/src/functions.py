@@ -108,3 +108,46 @@ def matrix_stats(matrix):
 
     average = total / amount_of_nums
     return smallest, largest, total, average
+
+
+def count_frequency(matrix, char):
+    """
+    -------------------------------------------------------
+    Count the number of appearances of the given character char
+    in matrix.
+    Use: count = count_frequency(matrix, char)
+    -------------------------------------------------------
+    Parameters:
+        matrix - the matrix to search in it (2D list of str)
+        char - character to search for it (str, len = 1)
+    Returns:
+        count - the number of appearances of char in the matrix (int)
+    -------------------------------------------------------
+    """
+    count = 0
+    for i in range(len(matrix)):
+        for j in range(len(matrix[0])):
+            if matrix[i][j] == char:
+                count += 1
+    return count
+
+
+def matrix_transpose(matrix):
+    """
+    -------------------------------------------------------
+    Transpose the contents of matrix. (Swap the rows and columns.)
+    Use: transposed = matrix_transpose(matrix):
+    -------------------------------------------------------
+    Parameters:
+        matrix - a 2D list (2D list of *)
+    Returns:
+        transposed - the transposed matrix (2D list of *)
+    ------------------------------------------------------
+    """
+    transposed = []
+    for i in range(len(matrix[0])):
+        row = []
+        for j in range(len(matrix)):
+            row.append(matrix[j][i])
+        transposed.append(row)
+    return transposed

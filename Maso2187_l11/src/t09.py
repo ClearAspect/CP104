@@ -9,19 +9,13 @@ __updated__ = "2023-11-30"
 -------------------------------------------------------
 """
 # Imports
+from functions import count_frequency
 
 # Constants
 
 
-def func():
-    """
-    -------------------------------------------------------
-    description
-    Use:
-    -------------------------------------------------------
-    Parameters:
-        name - description (type)
-    Returns:
-        name - description (type)
-    ------------------------------------------------------
-    """
+print(
+    count_frequency(
+        [["g", "h", "a", "d"], ["o", "t", "n", "d"], ["w", "j", "t", "c"]], "d"
+    )
+)
