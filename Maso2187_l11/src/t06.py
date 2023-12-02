@@ -9,19 +9,8 @@ __updated__ = "2023-11-30"
 -------------------------------------------------------
 """
 # Imports
+from functions import matrix_stats
 
 # Constants
 
-
-def func():
-    """
-    -------------------------------------------------------
-    description
-    Use:
-    -------------------------------------------------------
-    Parameters:
-        name - description (type)
-    Returns:
-        name - description (type)
-    ------------------------------------------------------
-    """
+print(matrix_stats([[2, 0, -1, 1], [10, 4, -5, 9], [-6, 3, 6, 0]]))

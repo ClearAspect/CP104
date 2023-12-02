@@ -76,3 +76,35 @@ def print_matrix_num(matrix, value_type):
                 print(f"{matrix[i][j]:>7d}", end="")
 
     return
+
+
+def matrix_stats(matrix):
+    """
+    -------------------------------------------------------
+    Returns statistics on a 2D list.
+                Use: smallest, largest, total, average = matrix_stats(matrix)
+    -------------------------------------------------------
+    Parameters:
+        matrix - a 2D list of numbers (2D list of float/int)
+    Returns:
+        smallest - the smallest number in matrix (float/int)
+        largest - the largest number in matrix (float/int)
+        total - the total of the numbers in matrix (float/int)
+        average - the average of numbers in matrix (float/int)
+    -------------------------------------------------------
+    """
+    smallest = float("inf")
+    largest = float("-inf")
+    total = 0
+    amount_of_nums = len(matrix) * len(matrix[0])
+
+    for i in range(len(matrix)):
+        for j in range(len(matrix[0])):
+            total += matrix[i][j]
+            if matrix[i][j] > largest:
+                largest = matrix[i][j]
+            if matrix[i][j] < smallest:
+                smallest = matrix[i][j]
+
+    average = total / amount_of_nums
+    return smallest, largest, total, average
